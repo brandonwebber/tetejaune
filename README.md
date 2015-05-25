@@ -1,2 +1,2 @@
-# tetejaune
-Tete Jaune Site
+# Tete Jaune
+Tete Jaune landing page

@@ -26,6 +26,7 @@ h1 {
 
 .tagline {
   font-weight: normal;
+  color: #F3A724;
   line-height: 1.4em;
   margin: 0; }
   @media only screen and (max-width: 768px) {
@@ -91,11 +92,8 @@ a {
   padding: 0 0.4em;
   vertical-align: middle; }
 
-.bushel-logo {
-  height: 1.3em; }
-
-.dr-logo {
-  height: 2.5em; }
+.tetejaune-logo {
+  height: 14.5em; }
 
 .border {
   margin-top: 1em; }

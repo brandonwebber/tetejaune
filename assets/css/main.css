@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "ff-tisa-web-pro", "Tisa Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #3a3a3a; }
+  @media only screen and (max-width: 768px) {
+    body {
+      text-align: center;
+      font-size: 15px;
+      padding: 1em; } }
+
+h1 {
+  font-family: "brandon-grotesque", "Brandon Grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 4.75em;
+  font-weight: 900;
+  line-height: 1em;
+  color: #ffb53b;
+  margin: 0;
+  text-transform: uppercase; }
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 3.2em; } }
+
+.tagline {
+  font-weight: normal;
+  line-height: 1.4em;
+  margin: 0; }
+  @media only screen and (max-width: 768px) {
+    .tagline {
+      padding: 0.2em 1.5em; } }
+
+h2, h3, h4 {
+  margin-bottom: 0; }
+
+.highlight {
+  background-color: #feedd2;
+  margin-left: -0.4em;
+  padding: 0.1em 1em 0.2em 0.4em; }
+  @media only screen and (max-width: 768px) {
+    .highlight {
+      padding: 0.2em 0.4em; } }
+
+hr {
+  display: block;
+  border: none;
+  background-color: #a1a1a1;
+  height: 1px;
+  width: 20%;
+  margin-top: 2em; }
+
+* {
+  transition: all 0.1s ease-in-out; }
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
+  @media only screen and (max-width: 900px) {
+    body {
+      background-position-x: 300px; } }
+  @media only screen and (min-width: 900px) and (max-width: 1000px) {
+    body {
+      background-position-x: 250px; } }
+  @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    body {
+      background-position-x: 150px; } }
+  @media only screen and (max-width: 768px) {
+    body {
+      background: none; } }
+
+a {
+  color: #ffb53b;
+  text-decoration: none; }
+
+.wrap {
+  max-width: 35em;
+  margin: 3em; }
+  @media only screen and (max-width: 768px) {
+    .wrap {
+      margin: 0 auto; } }
+
+.logos {
+  font-style: italic;
+  margin-bottom: 1.2em; }
+
+.logo {
+  padding: 0 0.4em;
+  vertical-align: middle; }
+
+.bushel-logo {
+  height: 1.3em; }
+
+.dr-logo {
+  height: 2.5em; }
+
+.border {
+  margin-top: 1em; }
+  .border p {
+    line-height: 1.8em;
+    padding: 0;
+    margin: 0; }
+
+.border-left {
+  border-right: 1px solid #3a3a3a; }
+
+.border-half {
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3A3A3A;
+  display: inline-block;
+  width: 38.7%;
+  padding: 0 3em 2em 1em;
+  margin-left: -3px;
+  margin-top: 2em; }
+
+@media only screen and (max-width: 768px) {
+  .border, .border-left, .border-half {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    width: 100%; } }
+
+.btn {
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #a1a1a1;
+  text-decoration: none;
+  font-style: italic;
+  color: #3a3a3a;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  margin: 0.8em 0; }
+  @media only screen and (max-width: 768px) {
+    .btn {
+      margin: 0.8em auto;
+      width: 80%; } }
+  .btn:hover {
+    background-color: #ffb53b;
+    border-color: #ffb53b;
+    color: white; }
+
+.info {
+  margin-top: 2em; }
+  .info h4 {
+    margin-top: 0; }
+
+/*# sourceMappingURL=main.css.map */

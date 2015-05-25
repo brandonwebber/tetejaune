@@ -1,0 +1,58 @@
+body {
+	font-family: $tisa;
+	font-size: 16px;
+	color: $black;
+
+	@media only screen and (max-width: 768px) {
+		text-align: center;
+		font-size: 15px;
+		padding: 1em;
+	}
+}
+
+h1 {
+	font-family: $brandon;
+	font-size: 4.75em;
+	font-weight: 900;
+	line-height: 1em;
+	color: $yellow;
+	margin: 0;
+	text-transform: uppercase;
+
+	@media only screen and (max-width: 768px) {
+		font-size: 3.2em;
+	}
+}
+
+.tagline {
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 0;
+	
+	@media only screen and (max-width: 768px) {
+		padding: 0.2em 1.5em;
+	}
+}
+
+h2, h3, h4 {
+	margin-bottom: 0;
+}
+
+.highlight {
+	background-color: $yellow-faded;
+	margin-left: -0.4em;
+	padding: 0.1em 1em 0.2em 0.4em;
+	
+	@media only screen and (max-width: 768px) {
+		padding: 0.2em 0.4em;
+	}
+}
+
+hr {
+	display: block;
+	border: none;
+	background-color: #a1a1a1;
+	height: 1px;
+	width: 20%;
+	margin-top: 2em;
+}

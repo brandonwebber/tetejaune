@@ -128,11 +128,14 @@ a {
   border-radius: 12px;
   border: 1px solid #a1a1a1;
   text-decoration: none;
-  font-style: italic;
   color: #3a3a3a;
   width: 100%;
   text-align: center;
   padding: 1em 0;
+  background-color: #FFFFFF;
+  font-family: inherit;
+  font-size: inherit;
+  font: inherit, italic;
   margin: 0.8em 0; }
   @media only screen and (max-width: 768px) {
     .btn {
@@ -147,5 +150,9 @@ a {
   margin-top: 2em; }
   .info h4 {
     margin-top: 0; }
+
+#mc_embed_signup {
+  margin-top: 15px;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -145,6 +145,27 @@ a {
     background-color: #ffb53b;
     border-color: #ffb53b;
     color: white; }
+    
+.field {
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #a1a1a1;
+  text-decoration: none;
+  color: #3a3a3a;
+  width: 100%;
+  text-align: left;
+  text-indent: 20px;
+  padding: .5em 0;
+  background-color: #FFFFFF;
+  font-family: inherit;
+  font-size: inherit;
+  font: inherit, italic;
+  margin: 0.8em 0; }
+  @media only screen and (max-width: 768px) {
+     .field {
+      margin: 0.8em auto;
+      width: 80%; } }
+
 
 .info {
   margin-top: 2em; }

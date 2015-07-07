@@ -124,6 +124,7 @@ a {
     width: 100%; } }
 
 .btn {
+  font-weight: bold;
   display: block;
   border-radius: 12px;
   border: 1px solid #a1a1a1;
@@ -144,7 +145,16 @@ a {
   .btn:hover {
     background-color: #ffb53b;
     border-color: #ffb53b;
+    color: white; 
+    cursor: pointer; }
+  .btn--rev {
+    background-color: #ffb53b;
+    border-color: #ffb53b;
     color: white; }
+  .btn--rev:hover {
+    background-color: transparent;
+    color: inherit; 
+    border-color: inherit; }
     
 .field {
   display: block;
@@ -160,7 +170,10 @@ a {
   font-family: inherit;
   font-size: inherit;
   font: inherit, italic;
+  outline: none;
   margin: 0.8em 0; }
+  .field:focus {
+    border-color: #ffb53b; }
   @media only screen and (max-width: 768px) {
      .field {
       margin: 0.8em auto;

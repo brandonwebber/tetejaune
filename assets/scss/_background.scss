@@ -1,0 +1,32 @@
+* {
+	transition: all 0.1s ease-in-out;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+	@media only screen and (max-width: 900px) {
+		background-position-x: 300px;
+	}
+
+	@media only screen and (min-width: 900px) and (max-width: 1000px) {
+		background-position-x: 250px;
+	}
+
+	@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+		background-position-x: 150px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		background: none;
+	}
+}
+
+a {
+	color: $yellow;
+	text-decoration: none;
+}

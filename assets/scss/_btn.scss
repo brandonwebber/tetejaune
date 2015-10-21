@@ -1,0 +1,25 @@
+.btn {
+	display: block;
+	border-radius: 12px;
+	
+	border: 1px solid $grey;
+	text-decoration: none;
+	font-style: italic;
+	color: $black;
+
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	margin: 0.8em 0;
+
+	@media only screen and (max-width: 768px) {
+		margin: 0.8em auto;
+		width: 80%;
+	}
+
+	&:hover {
+		background-color: $yellow;
+		border-color: $yellow;
+		color: white;
+	}
+}

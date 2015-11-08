@@ -183,11 +183,16 @@ a {
       margin: 0.8em auto;
       width: 80%; } }
 
+.full-img {
+  width: 100%;
+}
 
 .info {
   margin-top: 2em; }
   .info h4 {
     margin-top: 0; }
+
+
 
 #mc_embed_signup {
   margin-top: 15px;
